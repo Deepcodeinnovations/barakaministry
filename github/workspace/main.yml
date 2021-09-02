@@ -14,4 +14,4 @@ jobs:
         server: ftp.tsc.ug
         username: ${{ secrets.ftp_username }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /domains/emikisaministries.org/public_html/
+        server-dir: /domains/barakaministries.org/public_html/
