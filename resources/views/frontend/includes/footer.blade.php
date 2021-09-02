@@ -38,11 +38,11 @@
                                         <h5 class="widget_title">Connect With Us</h5>
                                         <div class="widget_inner">
                                             <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_small">
-                                                <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_twitter"><span class="icon-twitter"></span></a></div>
-                                                <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div>
-                                                <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_vine"><span class="icon-vine"></span></a></div>
-                                                <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_youtube"><span class="icon-youtube"></span></a></div>
-                                                <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_pinterest-circled"><span class="icon-pinterest-circled"></span></a></div>
+                                                <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_twitter"><span class="icon-twitter"></span></a></div>
+                                                <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div>
+                                            
+                                                <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_youtube"><span class="icon-youtube"></span></a></div>
+                                                
                                             </div>
                                         </div>
                                     </aside>
@@ -60,7 +60,7 @@
                 <div class="copyright_wrap_inner">
                     <div class="content_wrap">
                         <div class="copyright_text">
-                            <p><a href="index.html#">Baraka Ministries</a> © 2019 All Rights Reserved. <a href="index.html#">Terms of Use</a> and <a href="index.html#">Privacy Policy</a></p>
+                            <p><a href="javascript:void(0)">Baraka Ministries</a> © 2019 All Rights Reserved. <a href="javascript:void(0)">Terms of Use</a> and <a href="javascript:void(0)">Privacy Policy</a></p>
                         </div>
                     </div>
                 </div>

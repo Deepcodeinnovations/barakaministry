@@ -14,11 +14,11 @@
                                 <a class="first_button" href="{{ route('web.donate')}}">Donate</a><a class="second_button" href="{{ route('web.volunteer')}}">Become Volunteer</a> </div>
                             <div class="contact_socials">
                                 <div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny">
-                                    <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_twitter"><span class="icon-twitter"></span></a></div>
-                                    <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div>
-                                    <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_vine"><span class="icon-vine"></span></a></div>
-                                    <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_youtube"><span class="icon-youtube"></span></a></div>
-                                    <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_pinterest-circled"><span class="icon-pinterest-circled"></span></a></div>
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_twitter"><span class="icon-twitter"></span></a></div>
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div>
+                                  
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_youtube"><span class="icon-youtube"></span></a></div>
+                                   
                                 </div>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                             </nav>
                             <div class="search_wrap search_style_fullscreen search_state_closed">
                                 <div class="search_form_wrap">
-                                    <form role="search" method="get" class="search_form" action="index.html#">
+                                    <form role="search" method="get" class="search_form" action="javascript:void(0)">
                                         <button type="submit" class="search_submit icon-search" title="Open search"></button>
                                         <input type="text" class="search_field" placeholder="Search" value="" name="s" />
                                         <a class="search_close icon-cancel"></a>
@@ -118,7 +118,7 @@
                             </nav>
                         <div class="search_wrap search_style_ search_state_fixed search_ajax">
                             <div class="search_form_wrap">
-                                <form role="search" method="get" class="search_form" action="index.html#">
+                                <form role="search" method="get" class="search_form" action="javascript:void(0)">
                                     <button type="submit" class="search_submit icon-search" title="Start search"></button>
                                     <input type="text" class="search_field" placeholder="Search" value="" name="s" /></form>
                             </div>
@@ -130,11 +130,10 @@
                     </div>
                     <div class="contact_socials">
                         <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_small">
-                            <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_twitter"><span class="icon-twitter"></span></a></div>
-                            <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div>
-                            <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_vine"><span class="icon-vine"></span></a></div>
-                            <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_youtube"><span class="icon-youtube"></span></a></div>
-                            <div class="sc_socials_item"><a href="index.html#" target="_blank" class="social_icons social_pinterest-circled"><span class="icon-pinterest-circled"></span></a></div>
+                            <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_twitter"><span class="icon-twitter"></span></a></div>
+                            <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div>
+                            <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_youtube"><span class="icon-youtube"></span></a></div>
+                           
                         </div>
                     </div>
                 </div>
