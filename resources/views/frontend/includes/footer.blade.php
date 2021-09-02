@@ -9,7 +9,7 @@
                                             <a href="index.html"><img src="/frontassets/images/logo-footer.png" class="logo_footer" alt="" width="237" height="121"></a>
                                         </div>
                                         <div class="contacts_address">
-                                            <p>Baraka Ministries is an evangelical, non-denominational, bible-based ministry dedicated to helping street children, orphans, at-risk slum children, and children from very poor families. We believe that a family is the best place for a child to grow in. <br /><br /><span>hope@barakafamily.org</span></p>
+                                            <p>Baraka Ministries is an evangelical, non-denominational, bible-based ministry dedicated to helping street children, orphans, at-risk slum children, and children from very poor families. We believe that a family is the best place for a child to grow in. <br /><br /><span>info@barakaministries.org</span></p>
                                         </div>
                                     </div>
                                     <!-- /.contacts_wrap_inner -->
