@@ -1,11 +1,12 @@
+@import url(//db.onlinewebfonts.com/c/012353322f649f02f19d7806cf74b7f8?family=fontello);
 @font-face {
   font-family: 'fontello';
-  src: url('../font/fontelloa628.eot');
-  src: url('../font/fontelloa628.eot#iefix') format('embedded-opentype'),
-       url('../font/fontelloa628.woff2') format('woff2'),
-       url('../font/fontelloa628.woff') format('woff'),
-       url('../font/fontelloa628.ttf') format('truetype'),
-       url('../font/fontelloa628.svg#fontello') format('svg');
+  src: url('fronts/fontelloa628.eot');
+  src: url('fronts/fontelloa628.eot#iefix') format('embedded-opentype'),
+       url('fronts/fontelloa628.woff2') format('woff2'),
+       url('fronts/fontelloa628.woff') format('woff'),
+       url('fronts/fontelloa628.ttf') format('truetype'),
+       url('fronts/fontelloa628.svg#fontello') format('svg');
   font-weight: normal;
   font-style: normal;
 }

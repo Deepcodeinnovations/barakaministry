@@ -8,8 +8,8 @@
     <link rel='dns-prefetch' href='http://fonts.googleapis.com/' />
     <link rel='dns-prefetch' href='http://s.w.org/' />
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CRaleway:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext" rel="stylesheet">
-    <link property="stylesheet" rel='stylesheet'href='/frontassets/css/font-face/WCManoNegraBta/stylesheet.css' type='text/css' />
-    <link property="stylesheet" rel='stylesheet' href='/frontassets/css/fontello/css/fontello.css' type='text/css' />
+    <link property="stylesheet" rel='stylesheet'href="{{ asset('/frontassets/css/font-face/WCManoNegraBta/stylesheet.css')}}" type='text/css' />
+    <link property="stylesheet" rel='stylesheet' href="{{ asset('/frontassets/css/fontello/fontello.css')}}" type='text/css' />
     <link property="stylesheet" rel='stylesheet' id='rs-plugin-settings-css' href='/frontassets/js/vendor/plugins/revslider/public/assets/css/settings.css' type='text/css' />
     <link property="stylesheet" rel='stylesheet' id='essential-grid-plugin-settings-css' href='/frontassets/js/vendor/plugins/essential-grid/public/assets/css/settings.css' type='text/css' />
     <link property="stylesheet" rel='stylesheet' id='charity_is_hope-main-style-css' href='/frontassets/css/style.css' type='text/css' />
