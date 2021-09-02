@@ -1,0 +1,24 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+class Service extends Model
+{
+    use HasFactory;
+
+    public function servicebreaks(){
+    	return $this->hasMany(Servicebreak::class, 'service_id');
+    }
+
+    public function images(){
+        return $this->hasMany(Gallery::class, 'service_id');
+    }
+
+     public static function getserviceID($slug){
+    $getserviceID = Service::select('id')->where('slug',$slug)->first();
+        return $getserviceID->id;
+    }
+}
