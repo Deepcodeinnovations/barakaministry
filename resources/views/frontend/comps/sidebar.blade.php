@@ -1,7 +1,6 @@
 		<div class="sidebar_inner widget_area_inner">
 
-
-							<div class="widget_number_2 widget widget_text">
+						<div class="widget_number_2 widget widget_text">
 								<div class="textwidget">
 						<div class="mc4wp_side">
 								<a href="#"><h4>Partner with Us</h4></a>
