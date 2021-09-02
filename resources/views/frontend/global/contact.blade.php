@@ -10,9 +10,9 @@
                                 <div data-vc-stretch-content="true">
                                     <div class="column_container">
                                         <div class="column-inner">
-                                            <iframe id="sc_googlemap_2026011478" class="sc_googlemap"
-                                                src="https://maps.google.com/maps?t=m&output=embed&iwloc=near&z=12&q=New+York"
-                                                aria-label="New York"></iframe>
+                                            <iframe  aria-label="Busabala Uganda" class="sc_googlemap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7640403144815!2d32.60785251380323!3d0.29886949978194893!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbc3e6d1143cb%3A0x12c69426c4565a86!2sBusabala%20Close%2C%20Kampala!5e0!3m2!1sen!2sug!4v1630562748044!5m2!1sen!2sug" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+                                         
                                         </div>
                                     </div>
                                 </div>
