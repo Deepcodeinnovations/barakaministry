@@ -23,7 +23,7 @@
     <link property="stylesheet" rel='stylesheet' id='trx-donations-style-css'  href='http://charity-is-hope-html.themerex.net/js/vendor/plugins/trx_donations/trx_donations.css' type='text/css' />
     <link property="stylesheet" rel='stylesheet' id='charity_is_hope-messages-style-css' href='http://charity-is-hope-html.themerex.net/js/vendor/fw/js/core.messages/core.messages.css' type='text/css' />
     <link property="stylesheet" rel='stylesheet' id='charity_is_hope-swiperslider-style-css' href='/frontassets/js/vendor/fw/js/swiper/swiper.css' type='text/css' />
-    <link href="//db.onlinewebfonts.com/c/012353322f649f02f19d7806cf74b7f8?family=fontello" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" />
     <link href="{{ asset('/adminassets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet"/>
 
 

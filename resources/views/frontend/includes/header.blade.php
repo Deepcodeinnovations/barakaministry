@@ -14,7 +14,7 @@
                                 <a class="first_button" href="{{ route('web.donate')}}">Donate</a><a class="second_button" href="{{ route('web.volunteer')}}">Become Volunteer</a> </div>
                             <div class="contact_socials">
                                 <div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny">
-                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_twitter"><span class="icon-twitter"></span></a></div>
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_twitter "><span class="icon-twitter"></span></a></div>
                                     <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div>
                                   
                                     <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_youtube"><span class="icon-youtube"></span></a></div>
