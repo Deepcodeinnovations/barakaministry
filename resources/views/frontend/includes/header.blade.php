@@ -92,7 +92,7 @@
 
                                     <li class="menu-item current-menu-item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children"><a href="{{ route('web.about')}}"><span>Who We Are</span></a>
                                     </li>
-                                    <li class="menu-item menu-item-has-children"><a href="index.html#"><span>What We Do</span></a>
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:Void(0)"><span>What We Do</span></a>
                                         <ul class="sub-menu">
                                              @foreach($userservices as $service)
                                 <li><a class="menu-item" href="{{ route('web.servicedetails', ['slug' => $service->slug ])}}">{{ $service->title}}</a></li>
@@ -100,16 +100,16 @@
                                         </ul>
                                     </li>
 
-                                     <li class="menu-item menu-item-has-children menu-item-45"><a href="index.html#"><span>Helping Hand</span></a>
+                                     <li class="menu-item menu-item-has-children menu-item-45"><a href="javascript:Void(0)"><span>Helping Hand</span></a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item"><a href="about-us-style-1.html"><span>Sponsor a Child</span></a></li>
-                                            <li class="menu-item"><a href="http://charity-is-hope-html.themerex.net/about-us-style-2/index.html"><span>Donate</span></a></li>
+                                            <li class="menu-item"><a href="{{ route('web.sponsor')}}"><span>Sponsor a Child</span></a></li>
+                                            <li class="menu-item"><a href="{{ route('web.donate')}}"><span>Donate</span></a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children menu-item-45"><a href="index.html#"><span>GeT Involved</span></a>
+                                    <li class="menu-item menu-item-has-children menu-item-45"><a href="javascript:Void(0)"><span>GeT Involved</span></a>
                                         <ul class="sub-menu">
-                                            <li class="menu-item"><a href="about-us-style-1.html"><span>Visit Us</span></a></li>
-                                            <li class="menu-item"><a href="http://charity-is-hope-html.themerex.net/about-us-style-2/index.html"><span>Volunteer</span></a></li>
+                                            <li class="menu-item"><a href="{{ route('web.visitus')}}"><span>Visit Us</span></a></li>
+                                            <li class="menu-item"><a href="{{ route('web.volunteer')}}"><span>Volunteer</span></a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item menu-item-has-children"><a href="{{ route('web.blogs')}}"><span>News</span></a></li>
