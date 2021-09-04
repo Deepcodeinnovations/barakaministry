@@ -25,7 +25,7 @@
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link href="{{ asset('/adminassets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet"/>
     <link href="{{ asset('/adminassets/css/icons.css')}}" rel="stylesheet"/>
-
+<link href="{{ asset('/adminassets/css/iconfonts/font-awesome/css/font-awesome.min.css')}}" rel="stylesheet"/>
 <title>Baraka Ministries | @yield('title') </title>
 </head>
 <body class="home page page-template-default body_style_wide top_style_header_1 body_filled article_style_stretch layout_single-standard template_single-standard scheme_original top_panel_show top_panel_above sidebar_hide sidebar_outer_hide">
