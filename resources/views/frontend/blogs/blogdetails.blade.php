@@ -20,9 +20,13 @@
                             <!-- </div> class="post_content" itemprop="articleBody"> -->
                             <div class="post_info post_info_bottom post_info_share post_info_share_horizontal">
                                 <div class="sc_socials sc_socials_size_tiny sc_socials_share sc_socials_dir_horizontal">
-                                    <div class="sc_socials_item social_item_popup"><a href="single-post.html#" class="social_icons social_twitter" data-link="https://twitter.com/intent/tweet?text=Save+Them+All&#038;url=http%3A%2F%2Fcharity-is-hope.themerex.net%2Fsave-them-all%2F"><span class="icon-twitter"></span></a></div>
-                                    <div class="sc_socials_item social_item_popup"><a href="single-post.html#" class="social_icons social_facebook" data-link="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fcharity-is-hope.themerex.net%2Fsave-them-all%2F"><span class="icon-facebook"></span></a></div>
-                                    <div class="sc_socials_item social_item_popup"><a href="single-post.html#" class="social_icons social_vine" data-link=""><span class="icon-vine"></span></a></div>
+
+                                     <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" 
+                                     data-link="https://twitter.com/intent/tweet?text={{ $blog->title}}&#038;url=https://barakaministries.org/news&updates/{{ $blog->slug}}" class="social_icons social_twitter"><span class="fab fa-twitter"></span></a></div>
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank"
+                                    data-link="http://www.facebook.com/sharer.php?u=https://barakaministries.org/news&updates/{{ $blog->slug}}" class="social_icons social_facebook"><span class="fab fa-facebook-f"></span></a></div>
+                                  
+                                 
                                 </div>
                             </div>
                             <div class="post_author author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">

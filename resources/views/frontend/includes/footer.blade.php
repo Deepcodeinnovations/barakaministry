@@ -38,10 +38,10 @@
                                         <h5 class="widget_title">Connect With Us</h5>
                                         <div class="widget_inner">
                                             <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_small">
-                                                <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_twitter"><span class="icon-twitter"></span></a></div>
-                                                <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div>
-                                            
-                                                <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_youtube"><span class="icon-youtube"></span></a></div>
+                                                 <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_twitter"><span class="fab fa-twitter"></span></a></div>
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_facebook"><span class="fab fa-facebook-f"></span></a></div>
+                                  
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_youtube"><span class="fab fa-youtube"></span></a></div>
                                                 
                                             </div>
                                         </div>

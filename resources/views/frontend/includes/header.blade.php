@@ -14,10 +14,10 @@
                                 <a class="first_button" href="{{ route('web.donate')}}">Donate</a><a class="second_button" href="{{ route('web.volunteer')}}">Become Volunteer</a> </div>
                             <div class="contact_socials">
                                 <div class="sc_socials sc_socials_type_icons sc_socials_shape_round sc_socials_size_tiny">
-                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_twitter"><i class="fa fa-twitter"></i></a></div>
-                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_facebook"><i class="fa fa-facebook"></i></a></div>
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_twitter"><span class="fab fa-twitter"></span></a></div>
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_facebook"><span class="fab fa-facebook-f"></span></a></div>
                                   
-                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_youtube"><i class="icon-youtube"></i></a></div>
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_youtube"><span class="fab fa-youtube"></span></a></div>
                                    
                                 </div>
                             </div>
@@ -63,9 +63,9 @@
                             <div class="search_wrap search_style_fullscreen search_state_closed">
                                 <div class="search_form_wrap">
                                     <form role="search" method="get" class="search_form" action="javascript:void(0)">
-                                        <button type="submit" class="search_submit icon-search" title="Open search"></button>
+                                        <button type="submit" class="search_submit " title="Open search"><i class="fab fa-search-plus"></i></button>
                                         <input type="text" class="search_field" placeholder="Search" value="" name="s" />
-                                        <a class="search_close icon-cancel"></a>
+                                        <i class="search_close fab fa-search-plus"></i>
                                     </form>
                                 </div>
                             </div>
@@ -77,7 +77,7 @@
 
             <div class="header_mobile">
                 <div class="content_wrap">
-                    <div class="menu_button icon-menu"></div>
+                    <div class="menu_button fa fa-bars"></div>
                     <div class="logo">
                         <a href="index.html"><img src="{{ asset('/frontassets/images/logo.png')}}" class="logo_main" alt="" width="118" height="69"></a>
                     </div>
@@ -90,7 +90,11 @@
                                     <li class="menu-item current-menu-item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children"><a href="/"><span>Home</span></a>
                                     </li>
 
-                                    <li class="menu-item current-menu-item menu-item-home current-menu-ancestor current-menu-parent menu-item-has-children"><a href="{{ route('web.about')}}"><span>Who We Are</span></a>
+                                    <li class="menu-item menu-item-has-children"><a href="javascript:Void(0)"><span>Who We Are</span></a>
+                                         <ul class="sub-menu">
+                                            <li class="menu-item"><a href="{{ route('web.about')}}"><span>About Us</span></a></li>
+                                            <li class="menu-item"><a href="{{ route('web.focus')}}"><span>Our Focus</span></a></li>
+                                        </ul>
                                     </li>
                                     <li class="menu-item menu-item-has-children"><a href="javascript:Void(0)"><span>What We Do</span></a>
                                         <ul class="sub-menu">
@@ -113,7 +117,7 @@
                                         </ul>
                                     </li>
                                     <li class="menu-item menu-item-has-children"><a href="{{ route('web.blogs')}}"><span>News</span></a></li>
-                                    <li class="menu-item"><a href="{{ route('web.contact')}}"><span>Visit Us</span></a></li>
+                                    <li class="menu-item"><a href="{{ route('web.contact')}}"><span>Contact Us</span></a></li>
                                 </ul>
                             </nav>
                         <div class="search_wrap search_style_ search_state_fixed search_ajax">
@@ -130,9 +134,10 @@
                     </div>
                     <div class="contact_socials">
                         <div class="sc_socials sc_socials_type_icons sc_socials_shape_square sc_socials_size_small">
-                            <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_twitter"><span class="icon-twitter"></span></a></div>
-                            <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_facebook"><span class="icon-facebook"></span></a></div>
-                            <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_youtube"><span class="icon-youtube"></span></a></div>
+                           <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_twitter"><span class="fab fa-twitter"></span></a></div>
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_facebook"><span class="fab fa-facebook-f"></span></a></div>
+                                  
+                                    <div class="sc_socials_item"><a href="javascript:void(0)" target="_blank" class="social_icons social_youtube"><span class="fab fa-youtube"></span></a></div>
                            
                         </div>
                     </div>
