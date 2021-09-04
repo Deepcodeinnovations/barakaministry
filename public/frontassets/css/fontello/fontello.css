@@ -1,28 +1,22 @@
-@import url(//db.onlinewebfonts.com/c/012353322f649f02f19d7806cf74b7f8?family=fontello);
-@font-face {
-  font-family: 'fontello';
-  src: url('../font/fontelloa628.eot');
-  src: url('../font/fontelloa628.eot#iefix') format('embedded-opentype'),
-       url('../font/fontelloa628.woff2') format('woff2'),
-       url('../font/fontelloa628.woff') format('woff'),
-       url('../font/fontelloa628.ttf') format('truetype'),
-       url('../font/fontelloa628.svg#fontello') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
-/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
-/*
-@media screen and (-webkit-min-device-pixel-ratio:0) {
-  @font-face {
-    font-family: 'fontello';
-    src: url('../font/fontello.svg?27653649#fontello') format('svg');
-  }
-}
-*/
+@import url("../iconfonts/font-awesome/css/font-awesome.min.css");
+@import url("../iconfonts/glyphicons/glyphicon.css");
+@import url("../iconfonts/icon-list.css");
+@import url("../iconfonts/ionicons/ionicons.css");
+@import url("../iconfonts/cryptofont/css/cryptofont.min.css");
+@import url("../iconfonts/linearicons/Linearicons.css");
+@import url("../iconfonts/materialdesignicons/materialdesignicons.css");
+@import url("../iconfonts/pe-icon-7-stroke/Pe-icon-7.css");
+@import url("../iconfonts/simple-line-icons/simple-line-icons.css");
+@import url("../iconfonts/themify/themify.css");
+@import url("../iconfonts/typicons/typicons.css");
+@import url("../iconfonts/weathericons/weathericons.css");
+@import url("../iconfonts/feather/feather.css");
+@import url("../iconfonts/boxicons/boxicons.css");
+@import url("../iconfonts/line-awesome/line-awesome.css");
+@import url("../iconfonts/IcoMoon/IcoMoon.css");
+
 
  [class^="icon-"]:before, [class*=" icon-"]:before {
-  font-family: "fontello";
   font-style: normal;
   font-weight: normal;
   speak: none;
