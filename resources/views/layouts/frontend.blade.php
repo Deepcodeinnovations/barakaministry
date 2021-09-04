@@ -22,6 +22,7 @@
     <link rel='stylesheet' id='charity_is_hope-responsive-style-css' href="{{ asset('/frontassets/css/responsive.css')}}" type='text/css' />
     <link rel='stylesheet' id='mediaelement-css' href="/frontassets/js/vendor/mediaelement/mediaelementplayer.min.css" type='text/css' />
     <link rel='stylesheet' id='charity_is_hope-swiperslider-style-css' href="{{ asset('/frontassets/js/vendor/fw/js/swiper/swiper.css')}}" type='text/css' />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
     <link href="{{ asset('/adminassets/plugins/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet"/>
     <link href="{{ asset('/adminassets/css/icons.css')}}" rel="stylesheet"/>
 
@@ -54,16 +55,16 @@
 </div>
 
 
-    <a href="https://whatsapp.com/biz/" target="_blank" class="scroll_to_top" title="Chat with us on Whatsapp"><i class="fab fa-whatsapp "  style="font-size:30px"></i></a>
+    <a href="https://wa.me/message/2WLGPN6EZR6UI1/" target="_blank" class="scroll_to_top" title="Chat with us on Whatsapp"><i class="fab fa-whatsapp "  style="font-size:30px"></i></a>
     <div class="custom_html_section"></div>
-    <script type='text/javascript' src='/frontassets/js/vendor/jquery.js'></script>
-    <script type='text/javascript' src='/frontassets/js/vendor/jquery-migrate.min.js'></script>
-    <script type='text/javascript' src='/frontassets/js/vendor/fw/js/superfish.js'></script>
-    <script type='text/javascript' src='/frontassets/js/vendor/fw/js/core.utils.js'></script>
-    <script type='text/javascript' src='/frontassets/js/vendor/fw/js/core.init.js'></script>
-    <script type='text/javascript' src='/frontassets/js/vendor/fw/js/swiper/swiper.js'></script>
-    <script type='text/javascript' src='/frontassets/js/vendor/shortcodes/theme.shortcodes.js'></script>
-    <script type='text/javascript' src='/frontassets/js/vendor/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js'></script>
+    <script type='text/javascript' src="{{ asset('/frontassets/js/vendor/jquery.js')}}"></script>
+    <script type='text/javascript' src="{{ asset('/frontassets/js/vendor/jquery-migrate.min.js')}}"></script>
+    <script type='text/javascript' src="{{ asset('/frontassets/js/vendor/fw/js/superfish.js')}}"></script>
+    <script type='text/javascript' src="{{ asset('/frontassets/js/vendor/fw/js/core.utils.js')}}"></script>
+    <script type='text/javascript' src="{{ asset('/frontassets/js/vendor/fw/js/core.init.js')}}"></script>
+    <script type='text/javascript' src="/frontassets/js/vendor/fw/js/swiper/swiper.js"></script>
+    <script type='text/javascript' src="/frontassets/js/vendor/shortcodes/theme.shortcodes.js"></script>
+    <script type='text/javascript' src="/frontassets/js/vendor/plugins/revslider/public/assets/js/jquery.themepunch.revolution.min.js"></script>
     <script type="text/javascript" src="/frontassets/js/vendor/plugins/revslider/public/assets/js/extensions/revolution.extension.video.min.js"></script>
     <script type="text/javascript" src="/frontassets/js/vendor/plugins/revslider/public/assets/js/extensions/revolution.extension.slideanims.min.js"></script>
     <script type="text/javascript" src="/frontassets/js/vendor/plugins/revslider/public/assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
