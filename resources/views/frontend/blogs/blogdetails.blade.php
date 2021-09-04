@@ -1,100 +1,44 @@
 @extends('layouts.frontend')
 @section('title', $blog->title )
 @section('content')
-
- <section class="breadcrumbs-page-wrap" >
-        <div class="bg-fixed pos-rel breadcrumbs-page" style="background-image:url({{ asset('/frontassets/images/breadcrumbs_bg2.jpg')}}) !important;">
-            <div class="container">
-                <h1>{{ $blog->title }}</h1>
-                <nav aria-label="breadcrumb" class="breadcrumb-wrap">
-                    <ol class="breadcrumb">
-                        <li class="breadcrumb-item"><a href="/">Home</a></li>
-                        <li class="breadcrumb-item active" aria-current="page">{{ $blog->title }}</li>
-                    </ol>
-                </nav>  
+<div class="top_panel_image" style="background-image:url({{ $blog->image_url}}) !important;">
+                <div class="top_panel_image_header" ></div>
             </div>
-        </div>
-    </section>
-	
-       <!-- Blog Post Single Start -->
-        <section class="wide-tb-100">
-            <div class="container">
-                <div class="row">                    
-                    <div class="col-lg-9 col-md-12">
-                        <div class="sidebar-spacer">
-                            
-                            <h1 class="heading-main">
-                               {{ $blog->title }}
-                            </h1>
-                            
-                            <!-- Causes Single Wrap -->
-                            <div class="causes-wrap single">
-                                <div class="img-wrap">
-                                    <img src="{{ $blog->image_url }}" alt="">
-                                </div>
-
-                                <div class="content-wrap-single" style="width:100% !important">
-                                    {!! $blog->about !!}
+    <div class="page_content_wrap page_paddings_yes">
+                <div class="content_wrap wrapper">
+                    <div class="content">
+                        <div class="itemscope post_item post_item_single post_featured_default post_format_standard post-462 post type-post status-publish format-standard has-post-thumbnail hentry category-gallery tag-adoption tag-donation" itemscope itemtype="http://schema.org/Article">
+                            <div class="post_content" itemprop="articleBody">
+                                <h1 itemprop="headline" class="post_title entry-title"> {{ $blog->title }}</h1>
+                                <div class="post_info">
+                                    <span class="post_info_item post_info_posted"> <a href="index.html" class="post_info_date date updated" itemprop="datePublished" content="2016-09-12 14:20:49">{{ $blog->created_at->format('y M D')}}</a></span>
                                    
                                 </div>
-
-                                <div class="share-this-wrap">
-                                    <div class="share-line">
-                                        <div class="pr-4">
-                                            <strong>Share This</strong>
-                                        </div>
-                                        <div class="pl-4">
-                                            <ul class="list-unstyled list-inline mb-0">
-                                                <li class="list-inline-item"><a href="#"><i class="icofont-facebook"></i></a></li>
-                                                <li class="list-inline-item"><a href="#"><i class="icofont-twitter"></i></a></li>
-                                                <li class="list-inline-item"><a href="#"><i class="icofont-instagram"></i></a></li>
-                                                <li class="list-inline-item"><a href="#"><i class="icofont-behance"></i></a></li>
-                                                <li class="list-inline-item"><a href="#"><i class="icofont-youtube-play"></i></a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-
+                              {!! $blog->about !!}
+                               
                             </div>
-                            <!-- Causes Single Wrap -->
-                             
-                            <!-- Comments List -->
-                           
-
-                        </div>
-
-                    </div>
-                    <div class="col-lg-3 col-md-12">
-                    @include('frontend.includes.sidebar')
-                    </div>
-                </div>
-            </div>
-        </section>
-      
-
-              <section class="wide-tb-100 pb-0">
-   
-            <div class="container">
-                <div class="row">
-                    <!-- Callout Section Side Image -->
-                    <div class="col-sm-12">
-                        <div class="callout-style-side-img d-lg-flex align-items-center top-broken-grid">
-                            <div class="img-callout">
-                                <img src="/frontassets/images/callout_side_img.html" alt="">
-                            </div>
-                            <div class="text-callout">
-                                <div class="d-sm-flex align-items-center">                                   
-                                    <div class="heading">
-                                        <h2>Let Us Come Together To Make A Difference</h2>
-                                    </div>
-                                    <div class="icon">
-                                        <a target="_blank" href="https://www.paypal.com/paypalme/mikisaministries"  class="btn btn-default">Donate Now</a>
-                                    </div>
+                            <!-- </div> class="post_content" itemprop="articleBody"> -->
+                            <div class="post_info post_info_bottom post_info_share post_info_share_horizontal">
+                                <div class="sc_socials sc_socials_size_tiny sc_socials_share sc_socials_dir_horizontal">
+                                    <div class="sc_socials_item social_item_popup"><a href="single-post.html#" class="social_icons social_twitter" data-link="https://twitter.com/intent/tweet?text=Save+Them+All&#038;url=http%3A%2F%2Fcharity-is-hope.themerex.net%2Fsave-them-all%2F"><span class="icon-twitter"></span></a></div>
+                                    <div class="sc_socials_item social_item_popup"><a href="single-post.html#" class="social_icons social_facebook" data-link="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fcharity-is-hope.themerex.net%2Fsave-them-all%2F"><span class="icon-facebook"></span></a></div>
+                                    <div class="sc_socials_item social_item_popup"><a href="single-post.html#" class="social_icons social_vine" data-link=""><span class="icon-vine"></span></a></div>
                                 </div>
                             </div>
+                            <div class="post_author author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">
+                               
+                                <h6 class="post_author_title">About <span itemprop="name"><a href="http://charity-is-hope-html.themerex.net/author/trx_admin/index.html" class="fn">Baraka Ministries</a></span></h6>
+                                <div class="post_author_info" itemprop="description">
+                                    Baraka Ministries is an evangelical, non-denominational, bible-based ministry dedicated to helping street children, orphans, at-risk slum children, and children from very poor families. We believe that a family is the best place for a child to grow in.</div>
+                            </div>
                         </div>
+                    
+                        <!-- /.comments_wrap -->
                     </div>
-                    <!-- Callout Section Side Image -->
+                    <!-- </div> class="content"> -->
                 </div>
+                <!-- </div> class="content_wrap"> -->
             </div>
+
+
 @endsection

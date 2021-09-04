@@ -62,8 +62,44 @@
             </div>
 
 
+    <div class="wrap">
+                                    <div class="column_container">
+                                        <div class="column-inner">
+                                            <div class="wrapper">
+                                                <div class="h10"></div>
+                                                <h2 class="sc_title sc_title_regular sc_align_center margin_top_large">Volunteer Opportunities</h2>
+                                                <div class="sc_promo sc_promo_size_large">
+                                                    <div class="sc_promo_inner">
+                                                        <div class="sc_promo_image"></div>
+                                                        <div class="sc_promo_block sc_align_left">
+                                                            <div class="sc_promo_block_inner">
+                                                                <h2 class="sc_promo_title sc_item_title sc_item_title_without_descr">Become a Volunteer</h2>
+                                                                <div class="sc_promo_descr sc_item_descr">Baraka Ministries is looking for volunteers that can be our ministry Ambassadors in their cities in different countries. You will be helping us with Fundersing for the vulnerable children and also advocating for our goals and mission</div>
+                                                                <div class="sc_promo_button sc_item_button"><a href="{{ route('web.volunteer')}}" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large  sc_button_iconed icon-arrow">Volunteer</a></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <br>
+                                <br/>
 
-    <main >
+
+                                   <div class="columns_wrap block_1474278531405">
+                                    <div class="column_container">
+                                        <div class="column-inner">
+                                            <div class="wrapper">
+                                                <div id="sc_call_to_action_1289762350" class="sc_call_to_action sc_call_to_action_accented sc_call_to_action_style_2">
+                                                    <div class="sc_call_to_action_info"><h2 class="sc_call_to_action_title sc_item_title sc_item_title_without_descr">Donate Today to Save Children From the Trauma of Abuse</h2></div><div class="sc_call_to_action_featured"><div class="featured_bg"></div></div><div class="sc_call_to_action_buttons sc_item_buttons"><div class="sc_call_to_action_button sc_item_button"><a href="{{ route('web.donate')}}" class="sc_button sc_button_square sc_button_style_filled3 sc_button_size_large">How to Donate</a></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
       
 @endsection

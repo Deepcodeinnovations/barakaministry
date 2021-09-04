@@ -27,16 +27,16 @@
                         <div class="content_wrap clearfix">
                             <nav class="menu_main_nav_area menu_hover_fade">
                                 <ul id="menu_main" class="menu_main_nav">
-                                    <li class="menu-item current-menu-item menu-item-home current-menu-ancestor  current-menu-parent menu-item-has-children"><a href="/"><span>Home</span></a>
+                                    <li class=" {{  request()->routeIs('web.home') ? 'current-menu-item' : '' }} menu-item  menu-item-home    "><a href="/"><span>Home</span></a>
                                     </li>
 
-                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>Who We Are</span></a>
+                                    <li class="{{  request()->routeIs(['web.about', 'web.focus']) ? 'current-menu-item' : '' }} menu-item menu-item-has-children "><a href="javascript:void(0)"><span>Who We Are</span></a>
                                          <ul class="sub-menu">
                                             <li class="menu-item"><a href="{{ route('web.about')}}"><span>About Us</span></a></li>
                                             <li class="menu-item"><a href="{{ route('web.focus')}}"><span>Our Focus</span></a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children"><a href="javascript:void(0)"><span>What We Do</span></a>
+                                    <li class="menu-item menu-item-has-children {{  request()->routeIs(['web.servicedetails']) ? 'current-menu-item' : '' }}"><a href="javascript:void(0)"><span>What We Do</span></a>
                                         <ul class="sub-menu">
                                              @foreach($userservices as $service)
                                 <li><a class="menu-item" href="{{ route('web.servicedetails', ['slug' => $service->slug ])}}">{{ $service->title}}</a></li>
@@ -44,20 +44,20 @@
                                         </ul>
                                     </li>
 
-                                     <li class="menu-item menu-item-has-children menu-item-45"><a href="javascript:void(0)"><span>Helping Hand</span></a>
+                                     <li class="menu-item menu-item-has-children menu-item-45 {{  request()->routeIs(['web.sponsor','web.donate']) ? 'current-menu-item' : '' }}"><a href="javascript:void(0)"><span>Helping Hand</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="{{ route('web.sponsor')}}"><span>Sponsor a Child</span></a></li>
                                             <li class="menu-item"><a href="{{ route('web.donate')}}"><span>Donate</span></a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children menu-item-45"><a href="javascript:void(0)"><span>Get Involved</span></a>
+                                    <li class="menu-item menu-item-has-children menu-item-45 {{  request()->routeIs(['web.visitus','web.volunteer']) ? 'current-menu-item' : '' }}"><a href="javascript:void(0)"><span>Get Involved</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="{{ route('web.visitus')}}"><span>Visit Us</span></a></li>
                                             <li class="menu-item"><a href="{{ route('web.volunteer')}}"><span>Volunteer</span></a></li>
                                         </ul>
                                     </li>
-                                    <li class="menu-item menu-item-has-children"><a href="{{ route('web.blogs')}}"><span>News</span></a></li>
-                                    <li class="menu-item"><a href="{{ route('web.contact')}}"><span>Contact Us</span></a></li>
+                                    <li class="menu-item menu-item-has-children {{  request()->routeIs(['web.blogs']) ? 'current-menu-item' : '' }}"><a href="{{ route('web.blogs')}}"><span>News</span></a></li>
+                                    <li class="menu-item {{  request()->routeIs(['web.contact']) ? 'current-menu-item' : '' }}"><a href="{{ route('web.contact')}}"><span>Contact Us</span></a></li>
                                 </ul>
                             </nav>
                             <div class="search_wrap search_style_fullscreen search_state_closed">

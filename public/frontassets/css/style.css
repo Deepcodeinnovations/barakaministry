@@ -2707,7 +2707,7 @@ body:not(.top_panel_fixed) .top_panel_position_over .top_panel_bottom {
 
 /* Featured image in the header 7 */
 .top_panel_image {
-	height:42em;
+	height:30em;
 	overflow:hidden;
 	position:relative;
 	background-size:cover;
