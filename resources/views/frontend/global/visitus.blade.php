@@ -49,7 +49,34 @@
 								<div class="post_descr">
 									<p> Dress: As a general rule, dress should be modest, but comfortable.  We recommend light weight clothing. It will be warm and humid. Rain is also a good possibility at times. Men, in particular, should plan to bring ample shirts. With the exception of church services on Sunday, men can wear comfortable slacks or jeans, t-shirts or light-weight short sleeve shirts. Women can wear comfortable slacks or pants for free time and non-ministry activities, however long dresses or capris are appropriate when engaged in ministry.  Shoes should also be comfortable. Tennis shoes/walking shoes would be appropriate. Sandals if durable and water proof, due to the possibility of rain and mud. For church on Sunday, the Ugandan people will come wearing their best. Women should wear a full-length sundress. (No pants). Men should wear slacks, and a dress shirt. Ties are recommended but not required.</p>
 
-										<a href="single-post.html" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Request a Child to Sponsor</a>
+										                        <div class="sc_form_fields column-3_5">
+                                                                <form id="sc_form_1145226909_form" class="sc_input_hover_default" data-formtype="form_2" method="post" action="contacts.html#">
+                                                                    <div class="sc_form_info">
+                                                                        <div class="sc_form_item sc_form_field label_over"><input id="sc_form_username" type="text" name="username" placeholder="Name *" aria-required="true"></div>
+                                                                        <br>
+                                                                        <div class="sc_form_item sc_form_field label_over"><input id="sc_form_email" type="text" name="email" placeholder="E-mail *" aria-required="true"></div>
+                                                                        <br>
+                                                                        <div class="sc_form_item sc_form_field label_over"><input id="sc_form_subj" type="text" name="subject" placeholder="Subject" aria-required="true"></div>
+                                                                        <br>
+
+                                                                        <div class="sc_form_item sc_form_field label_over"><input id="sc_form_subj" type="text" name="subject" placeholder="Country of Origin" aria-required="true"></div>
+                                                                        <br>
+
+                                                                        <div class="sc_form_item sc_form_field label_over"><select name="departments">
+                                                                            <option value="He Choose Nothing">Choose Department you would like to Visit</option>
+                                                                            <option value="Music">Baraka Children Ministry</option>
+                                                                            <option value="Dance and Drama">Baraka Dance Troupe</option>
+                                                                            <option value="Counseling and Guidance">The Children's Choir</option>
+                                                                          
+                                                                        </select>
+                                                                    </div>
+                                                                    </div>
+                                                                    <br>
+                                                                   
+                                                                    <div class="sc_form_item sc_form_button"><button>Visit us Now</button></div>
+                                                                    <div class="result sc_infobox"></div>
+                                                                </form>
+                                                            </div>
 								
 								</div>
 							
