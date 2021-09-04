@@ -12,7 +12,7 @@
                     <div class="content">
 
 
-                        @foreach($userblogs as $blog)
+                        @foreach($userblogs->sortByDesc('created_at') as $blog)
                         <div class="post_item post_item_excerpt post_featured_left post_format_standard odd post-470 post type-post status-publish format-standard has-post-thumbnail hentry category-gallery tag-adoption tag-donation">
                             <div class="post_featured">
                                 <div class="post_thumb" data-image="{{ $blog->image_url}}" data-title="{{ $blog->title }}">
