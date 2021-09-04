@@ -55,7 +55,7 @@
 </div>
 
 
-    <a href="https://wa.me/message/2WLGPN6EZR6UI1/" target="_blank" class="scroll_to_top" title="Chat with us on Whatsapp"><i class="fab fa-whatsapp "  style="font-size:30px"></i></a>
+    <a href="https://api.whatsapp.com/message/2WLGPN6EZR6UI1" target="_blank" class="scroll_to_top" title="Chat with us on Whatsapp"><i class="fab fa-whatsapp "  style="font-size:30px"></i></a>
     <div class="custom_html_section"></div>
     <script type='text/javascript' src="{{ asset('/frontassets/js/vendor/jquery.js')}}"></script>
     <script type='text/javascript' src="{{ asset('/frontassets/js/vendor/jquery-migrate.min.js')}}"></script>
