@@ -74,7 +74,7 @@
                                                         <div class="sc_promo_block sc_align_left">
                                                             <div class="sc_promo_block_inner">
                                                                 <h2 class="sc_promo_title sc_item_title sc_item_title_without_descr">Become a Volunteer</h2>
-                                                                <div class="sc_promo_descr sc_item_descr">Baraka Ministries is looking for volunteers that can be our ministry Ambassadors in their cities in different countries. You will be helping us with Fundersing for the vulnerable children and also advocating for our goals and mission</div>
+                                                                <div class="sc_promo_descr sc_item_descr">Baraka Ministries is looking for volunteers that can be our ministry Ambassadors in their cities in different countries. You will be helping us with Fundraising for the vulnerable children and also advocating for our goals and mission</div>
                                                                 <div class="sc_promo_button sc_item_button"><a href="{{ route('web.volunteer')}}" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large  sc_button_iconed icon-arrow">Volunteer</a></div>
                                                             </div>
                                                         </div>
