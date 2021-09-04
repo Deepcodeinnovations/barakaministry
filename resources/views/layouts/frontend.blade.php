@@ -7,6 +7,8 @@
     <meta name="format-detection" content="telephone=no"><link rel='shortcut icon' href="" type='image/x-icon' />
     <link rel='dns-prefetch' href="http://fonts.googleapis.com/"/>
     <link rel='dns-prefetch' href="http://s.w.org/" />
+
+    <link rel="shortcut icon" href="{{ asset('/frontassets/images/favicon.png')}}" />
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700%7COpen+Sans:300,300i,400,400i,600,600i,700,700i,800,800i%7CRaleway:100,200,300,400,500,600,700,800,900&amp;subset=latin-ext" rel="stylesheet">
     <link rel='stylesheet'href="{{ asset('/frontassets/css/font-face/WCManoNegraBta/stylesheet.css')}}" type='text/css' />
     <link rel='stylesheet' href="{{ asset('/frontassets/css/fontello/fontello.css')}}" type='text/css' />
