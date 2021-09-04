@@ -489,14 +489,14 @@ function charity_is_hope_ready_actions() {
     //------------------------------------
 
 	// Scroll to top button
-	jQuery('.scroll_to_top').on('click', function(e) {
-		"use strict";
-		jQuery('html,body').animate({
-			scrollTop: 0
-		}, 'slow');
-		e.preventDefault();
-		return false;
-	});
+	// jQuery('.scroll_to_top').on('click', function(e) {
+	// 	"use strict";
+	// 	jQuery('html,body').animate({
+	// 		scrollTop: 0
+	// 	}, 'slow');
+	// 	e.preventDefault();
+	// 	return false;
+	// });
 
 	// AJAX views counter
 	if (CHARITY_IS_HOPE_STORAGE['ajax_views_counter'] !== undefined) {

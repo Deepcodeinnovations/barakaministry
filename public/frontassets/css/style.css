@@ -6479,9 +6479,9 @@ footer.twitter_wrap .sc_section_overlay {
 	position: fixed !important;
 	z-index: 100001 !important;
 	display:block;
-	width: 3em;
-	height: 3em;
-	line-height: 3em;
+	width: 4em;
+	height: 4em;
+	line-height: 4em;
 	text-align:center;
 	bottom: -4em;
 	right: 2em;

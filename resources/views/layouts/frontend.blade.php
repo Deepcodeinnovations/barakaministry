@@ -54,7 +54,7 @@
 </div>
 
 
-    <a href="index.html#" class="scroll_to_top icon-up" title="Scroll to top"></a>
+    <a href="https://whatsapp.com/biz/" target="_blank" class="scroll_to_top" title="Chat with us on Whatsapp"><i class="fab fa-whatsapp "  style="font-size:30px"></i></a>
     <div class="custom_html_section"></div>
     <script type='text/javascript' src='/frontassets/js/vendor/jquery.js'></script>
     <script type='text/javascript' src='/frontassets/js/vendor/jquery-migrate.min.js'></script>

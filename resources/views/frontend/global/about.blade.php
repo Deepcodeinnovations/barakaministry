@@ -95,7 +95,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="sc_services_button sc_item_button"><a href="{{ route('web.visitus')}}" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large  sc_button_iconed icon-arrow">Schedule a Visit</a></div>
+                                                        <div class="sc_services_button sc_item_button"><a href="{{ route('web.visitus')}}" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large  sc_button_iconed fa fa-arrow-circle-right">Schedule a Visit</a></div>
                                                     </div>
                                                     <!-- /.sc_services -->
                                                 </div>

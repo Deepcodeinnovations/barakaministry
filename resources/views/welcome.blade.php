@@ -20,7 +20,7 @@
                                                 data-transform_out="opacity:0;s:300;" data-start="1200" data-splitin="none" data-splitout="none" data-responsive_offset="on">Helping Vulnerable<br/> children </div>
                                 <!-- LAYER NR. 3 -->
                                 <div class="tp-caption TRX-button   tp-resizeme" id="slide-1-layer-3" data-x="right" data-hoffset="285" data-y="499" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1400;e:Power2.easeInOut;"
-                                                data-transform_out="opacity:0;s:300;" data-start="1700" data-splitin="none" data-splitout="none" data-responsive_offset="on"><a href="{{ route('web.sponsor')}}" class="sc_button sc_button_square sc_button_style_filled2 sc_button_size_large  sc_button_iconed icon-arrow">Sponsor a Child</a> </div>
+                                                data-transform_out="opacity:0;s:300;" data-start="1700" data-splitin="none" data-splitout="none" data-responsive_offset="on"><a href="{{ route('web.sponsor')}}" class="sc_button sc_button_square sc_button_style_filled2 sc_button_size_large  sc_button_iconed ">Sponsor a Child <i class="fa fa-arrow-circle-right"></i></a> </div>
                             </li>
                             <!-- SLIDE  -->
                             <li data-index="rs-2" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide"
@@ -36,7 +36,7 @@
                                                 data-transform_out="opacity:0;s:300;" data-start="1200" data-splitin="none" data-splitout="none" data-responsive_offset="on">Creating change for<br/> the better </div>
                                 <!-- LAYER NR. 3 -->
                                 <div class="tp-caption TRX-button   tp-resizeme" id="slide-2-layer-3" data-x="right" data-hoffset="295" data-y="497" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1400;e:Power2.easeInOut;"
-                                                data-transform_out="opacity:0;s:300;" data-start="1700" data-splitin="none" data-splitout="none" data-responsive_offset="on"><a href="{{ route('web.visitus')}}" class="sc_button sc_button_square sc_button_style_filled2 sc_button_size_large  sc_button_iconed icon-arrow">Visit us Now</a> </div>
+                                                data-transform_out="opacity:0;s:300;" data-start="1700" data-splitin="none" data-splitout="none" data-responsive_offset="on"><a href="{{ route('web.visitus')}}" class="sc_button sc_button_square sc_button_style_filled2 sc_button_size_large  sc_button_iconed fa fa-arrow-circle-right">Visit us Now <i class="fa fa-arrow-circle-right"></i></a> </div>
                             </li>
                             <!-- SLIDE  -->
                             <li data-index="rs-3" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off" data-easein="default" data-easeout="default" data-masterspeed="300" data-rotate="0" data-saveperformance="off" data-title="Slide"
@@ -52,7 +52,7 @@
                                                 data-start="1200" data-splitin="none" data-splitout="none" data-responsive_offset="on">Give a little.<br/> Change a lot. </div>
                                 <!-- LAYER NR. 3 -->
                                 <div class="tp-caption TRX-button   tp-resizeme" id="slide-3-layer-3" data-x="145" data-y="487" data-width="['auto']" data-height="['auto']" data-transform_idle="o:1;" data-transform_in="y:50px;opacity:0;s:1400;e:Power2.easeInOut;" data-transform_out="opacity:0;s:300;"
-                                                data-start="1700" data-splitin="none" data-splitout="none" data-responsive_offset="on"><a href="{{ route('web.donate')}}" class="sc_button sc_button_square sc_button_style_filled2 sc_button_size_large  sc_button_iconed icon-arrow">Donate to Ministry</a> </div>
+                                                data-start="1700" data-splitin="none" data-splitout="none" data-responsive_offset="on"><a href="{{ route('web.donate')}}" class="sc_button sc_button_square sc_button_style_filled2 sc_button_size_large  sc_button_iconed fa fa-arrow-circle-right">Donate to Ministry <i class="fa fa-arrow-circle-right"></i></a> </div>
                             </li>
                         </ul>
                         <div class="tp-bannertimer"></div>
@@ -75,7 +75,7 @@
                                                             <div class="sc_promo_block_inner">
                                                                 <h2 class="sc_promo_title sc_item_title sc_item_title_without_descr">Become a Volunteer</h2>
                                                                 <div class="sc_promo_descr sc_item_descr">Baraka Ministries is looking for volunteers that can be our ministry Ambassadors in their cities in different countries. You will be helping us with Fundraising for the vulnerable children and also advocating for our goals and mission</div>
-                                                                <div class="sc_promo_button sc_item_button"><a href="{{ route('web.volunteer')}}" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large  sc_button_iconed icon-arrow">Volunteer</a></div>
+                                                                <div class="sc_promo_button sc_item_button"><a href="{{ route('web.volunteer')}}" class="sc_button sc_button_square sc_button_style_filled sc_button_size_large  sc_button_iconed fa fa-arrow-circle-right">Volunteer <i class="fa fa-arrow-circle-right"></i></a></div>
                                                             </div>
                                                         </div>
                                                     </div>

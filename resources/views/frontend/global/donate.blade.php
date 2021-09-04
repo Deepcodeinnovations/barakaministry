@@ -35,6 +35,9 @@
 											<br><b>SWIFT CODE:</b> EQBLUGKA
 											</div>
 									</p>
+									<div class="contact_button">
+                                <a class="second_button sc_button sc_button_square sc_button_style_filled2 sc_button_size_large sc_button_iconed  " target="_blank" href="https://www.paypal.com/paypalme/barakaministries">Donate Using Paypal <i class="fab fa-paypal"></i></a></div>
+                                <br>
 									</div>
 								</div>
 			
