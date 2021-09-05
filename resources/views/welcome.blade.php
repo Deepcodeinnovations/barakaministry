@@ -93,7 +93,7 @@
                                         <div class="column-inner">
                                             <div class="wrapper">
                                                 <div id="sc_call_to_action_1289762350" class="sc_call_to_action sc_call_to_action_accented sc_call_to_action_style_2">
-                                                    <div class="sc_call_to_action_info"><h2 class="sc_call_to_action_title sc_item_title sc_item_title_without_descr">Donate Today to Save Children From the Trauma of Abuse</h2></div><div class="sc_call_to_action_featured"><div class="featured_bg"></div></div><div class="sc_call_to_action_buttons sc_item_buttons"><div class="sc_call_to_action_button sc_item_button"><a href="{{ route('web.donate')}}" class="sc_button sc_button_square sc_button_style_filled3 sc_button_size_large">How to Donate</a></div>
+                                                    <div class="sc_call_to_action_info"><h2 class="sc_call_to_action_title sc_item_title sc_item_title_without_descr">Donate Today to Save Children From the Trauma of Abuse</h2></div><div class="sc_call_to_action_featured"><div class="featured_bg"></div></div><div class="sc_call_to_action_buttons sc_item_buttons"><div class="sc_call_to_action_button sc_item_button"><a  class="sc_button sc_button_square sc_button_style_filled3 sc_button_size_large" target="_blank" href="https://www.paypal.com/paypalme/barakaministries">Donate Using Paypal <i class="fab fa-paypal"></i></a></div>
                                                     </div>
                                                 </div>
                                             </div>

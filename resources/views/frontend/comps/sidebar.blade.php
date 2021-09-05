@@ -1,5 +1,21 @@
 		<div class="sidebar_inner widget_area_inner">
 
+				<div class="widget_number_2 widget widget_text">
+								<div class="textwidget">
+						<div class="mc4wp_side">
+								<a href="#"><h4>Donate</h4></a>
+								<p>
+									In response to the overwhelming numbers of street children, orphans and abandoned babies being brought to us for help in form of money, and materials like clothes, scholarictic materials and more. We are requesting you to support us by donating at least $10.
+									<hr>
+                                     
+								</p>
+								<a class="sc_button sc_button_square sc_button_style_filled3" target="_blank" href="https://www.paypal.com/paypalme/barakaministries">Donate Now</a>
+							</div>
+						</div>
+														
+							</div>
+							<br>
+
 						<div class="widget_number_2 widget widget_text">
 								<div class="textwidget">
 						<div class="mc4wp_side">
@@ -15,6 +31,10 @@
 														
 							</div>
 							<br>
+
+
+
+
 
 
 					

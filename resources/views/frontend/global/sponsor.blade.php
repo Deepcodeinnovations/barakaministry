@@ -67,7 +67,7 @@ Sponsoring a child is more than just giving money. Your sponsored child will reg
 									<p>While it’s not required that you write to your child, we strongly encourage you do to so. Letters let your sponsored child know that they are important to you.</p><p> Letters also help increase the child’s literacy and communication skills. You may write to your child as often as you like.</p><p>
 
 Topics that will interest your child include:Church, school or work Favorite pastimes, Family, customs and traditions Prayer requests & praises</p>
-									<a href="javascript:void(0)" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Request a Child to Sponsor</a>
+									<a href="{{ route('web.contact')}}" class="sc_button sc_button_square sc_button_style_filled sc_button_size_small">Request a Child to Sponsor</a>
 								</div>
 							</div>
 						</div>
