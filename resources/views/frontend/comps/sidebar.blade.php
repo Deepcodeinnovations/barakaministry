@@ -9,14 +9,13 @@
 									<hr>
                                      
 								</p>
-								<a class="sc_button sc_button_square sc_button_style_filled3" target="_blank" href="https://www.paypal.com/paypalme/barakaministries">Donate Now</a>
+								<a class="sc_button sc_button_square sc_button_style_filled3" target="_blank" href="https://www.paypal.com/paypalme/barakaministries">Donate Now <i class="fab fa-paypal"></i></a>
 							</div>
 						</div>
 														
 							</div>
 							<br>
 
-							
 
 						<div class="widget_number_2 widget widget_text">
 								<div class="textwidget">
