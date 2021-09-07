@@ -47,7 +47,7 @@
                                      <li class="menu-item menu-item-has-children menu-item-45 {{  request()->routeIs(['web.sponsor','web.donate']) ? 'current-menu-item' : '' }}"><a href="javascript:void(0)"><span>Helping Hand</span></a>
                                         <ul class="sub-menu">
                                             <li class="menu-item"><a href="{{ route('web.sponsor')}}"><span>Sponsor a Child</span></a></li>
-                                            <li class="menu-item"><a href="{{ route('web.donate')}}"><span>Donate</span></a></li>
+                                            <li class="menu-item"><a href="{{ route('web.donate')}}"><span>Donate <i class="fab fa-paypal"></i></span></a></li>
                                         </ul>
                                     </li>
                                     <li class="menu-item menu-item-has-children menu-item-45 {{  request()->routeIs(['web.visitus','web.volunteer']) ? 'current-menu-item' : '' }}"><a href="javascript:void(0)"><span>Get Involved</span></a>
